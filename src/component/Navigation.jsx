@@ -1,13 +1,12 @@
-import React from 'react'
-
+import '../App.css';
 const Navigation = () => {
   return (
     <div>
-        <nav>
+        <nav className='container'>
         <div className="Logo">
           <img src="/Images/brand_logo.png" alt="Logo" />
         </div>
-        <ul>
+        <ul className='nav-links'>
           <li><a href="#home">Menu</a></li>
           <li><a href="#about">Location</a></li>
           <li><a href="#services">About</a></li>
