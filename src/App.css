@@ -69,3 +69,11 @@ button{
   color: var(--gray);
   border: 1px solid gray;
 }
+.shopping p {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+.brand-icons {
+  display: flex;
+  gap: 16px;
+}
